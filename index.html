@@ -16,22 +16,22 @@
       <nav>
         <div class="personal__logo">Alex Welch</div>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link"about-me__picture--mask>
             <a
-              href=""
+              href="#languages"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Languages</a
             >
           </li>
-          <li>
+          <li class="nav__link"about-me__picture--mask>
             <a
-              href=""
+              href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
-              >Project</a
+              >Projects</a
             >
           </li>
-          <li>
-            <a href="" class="nav__link--anchor nav__link--anchor-primary"
+          <li class="nav__link"about-me__picture--mask>
+            <a href="mailto:alexanderwelch11@gmail.com" class="nav__link--anchor nav__link--anchor-primary"
               >Contact</a
             >
           </li>
@@ -48,7 +48,7 @@
               />
             </figure>
             <h1 class="about-me__info--title">
-              Hey! I'm <span class="text--purple">Alex Welch</span> 👋
+              Hey! I'm <span class="text--purple">Alex Welch</span>&nbsp;<span class="wave">👋</span>
             </h1>
             <p class="about-me__info--para">
               I'm a new
@@ -66,7 +66,7 @@
               <a href="" class="about-me__link">
                 <i class="far fa-envelope"></i>
               </a>
-              <a href="" class="about-me__link">
+              <a href="./assets/Example Resume.pdf" target="_blank" class="about-me__link">
                 <i class="fas fa-file-pdf"></i>
               </a>
             </div>
@@ -158,40 +158,19 @@
                     vitae veniam exercitationem quibusdam officia?
                   </p>
                   <div class="project__description--links">
-                    <a href="https://www.github.com/alexmwelch" target="_blank" class="project__description--link">
-                        <i class="fab fa-github"></i>
+                    <a
+                      href="https://www.github.com/alexmwelch"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://www.yourwebsite.com" target="_blank" class="project__description--link">
-                        <i class="fas fa-link"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="project">
-              <div class="project__wrapper">
-                <img
-                  src="./assets/loopit.png"
-                  class="project__img"
-                  alt="Car subscription project"
-                />
-                <div class="project__description">
-                  <h3 class="project__description--title">Car sales project</h3>
-                  <h4 class="project__description--sub-title">
-                    Html, CSS, JavaScript, React
-                  </h4>
-                  <p class="project__description--para">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Consequatur, cupiditate dolorem ex rem provident adipisci
-                    minus qui dolor ullam hic maiores vero alias itaque fugit
-                    vitae veniam exercitationem quibusdam officia?
-                  </p>
-                  <div class="project__description--links">
-                    <a href="https://www.github.com/alexmwelch" target="_blank" class="project__description--link">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.yourwebsite.com" target="_blank" class="project__description--link">
-                        <i class="fas fa-link"></i>
+                    <a
+                      href="https://www.yourwebsite.com"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
                     </a>
                   </div>
                 </div>
@@ -216,11 +195,56 @@
                     vitae veniam exercitationem quibusdam officia?
                   </p>
                   <div class="project__description--links">
-                    <a href="https://www.github.com/alexmwelch" target="_blank" class="project__description--link">
-                        <i class="fab fa-github"></i>
+                    <a
+                      href="https://www.github.com/alexmwelch"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://www.yourwebsite.com" target="_blank" class="project__description--link">
-                        <i class="fas fa-link"></i>
+                    <a
+                      href="https://www.yourwebsite.com"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/loopit.png"
+                  class="project__img"
+                  alt="Car subscription project"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Car sales project</h3>
+                  <h4 class="project__description--sub-title">
+                    Html, CSS, JavaScript, React
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Consequatur, cupiditate dolorem ex rem provident adipisci
+                    minus qui dolor ullam hic maiores vero alias itaque fugit
+                    vitae veniam exercitationem quibusdam officia?
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://www.github.com/alexmwelch"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.yourwebsite.com"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
                     </a>
                   </div>
                 </div>
@@ -230,5 +254,54 @@
         </div>
       </div>
     </section>
+    <footer>
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
+            <img
+              src="./assets/logo.svg"
+              class="footer__logo--img"
+              alt="my logo"
+            />
+          </figure>
+          <span class="footer__logo--popper">
+            Top
+            <i class="fas fa-arrow-up"></i>
+          </span>
+        </a>
+        <div class="footer__social--list">
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >GitHub</a
+          >
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a
+            href="mailto:alexanderwelch11@gmail.com"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Email</a
+          >
+          <a
+            href="/assets/Example Resume.pdf"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            download=""
+            >Resume</a
+          >
+        </div>
+        <div class="footer__copyright">Copyright © Alex Welch 2022</div>
+      </div>
+    </footer>
   </body>
 </html>
